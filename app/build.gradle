@@ -29,6 +29,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'by.fav8195.sqliteexample'
+
+    //adding Binding
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
